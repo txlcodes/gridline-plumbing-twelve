@@ -67,7 +67,7 @@ export const services: Service[] = [
     title: "Drain & Sewer",
     desc: "Cleared drains, camera-inspected sewer lines, and lasting fixes for recurring backups.",
     icon: Waves,
-    img: "/images/crawlspace.png",
+    img: "/images/roughin.png",
     points: ["Drain cleaning", "Sewer camera inspection", "Line locating & repair"],
   },
   {
@@ -81,7 +81,7 @@ export const services: Service[] = [
     title: "Fixtures & Remodels",
     desc: "Faucets, toilets, showers, and full bath/kitchen rough-ins done clean and inspection-ready.",
     icon: ShowerHead,
-    img: "/images/washer-box.png",
+    img: "/images/washerbox.png",
     points: ["Faucet & toilet swaps", "Bath & kitchen rough-in", "Fixture upgrades"],
   },
   {
@@ -95,7 +95,7 @@ export const services: Service[] = [
     title: "New Construction",
     desc: "Ground-up and remodel rough-ins for builders and homeowners across the Denver metro.",
     icon: HardHat,
-    img: "/images/washer-box.png",
+    img: "/images/roughin.png",
     points: ["Rough-in & top-out", "Builder partnerships", "Permits & inspections"],
   },
 ];
@@ -213,8 +213,7 @@ export type GalleryItem = { img: string; title: string; tag: string };
 export const gallery: GalleryItem[] = [
   { img: "/images/hero-van.png", title: "Our Aurora Service Team", tag: "The Crew" },
   { img: "/images/crawlspace.png", title: "Crawlspace Main-Line Repipe", tag: "Repipe" },
-  { img: "/images/washer-box.png", title: "Washer Box & Fixture Rough-In", tag: "Rough-In" },
   { img: "/images/waterheater.png", title: "Water Heater & Expansion Tank Install", tag: "Water Heaters" },
-  { img: "/images/crawlspace.png", title: "Under-Home ABS Waste Lines", tag: "Drain & Sewer" },
-  { img: "/images/washer-box.png", title: "Copper Supply Valve Set", tag: "Water Lines" },
+  { img: "/images/washerbox.png", title: "Washer Box & Copper Valve Set", tag: "Fixtures" },
+  { img: "/images/roughin.png", title: "Bath Drain & Vent Rough-In", tag: "New Construction" },
 ];

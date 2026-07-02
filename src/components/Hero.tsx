@@ -6,16 +6,16 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-grad-deep text-white">
       <div className="absolute inset-0 grid-lines-dark opacity-70" />
-      <div className="container-x relative py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container-x relative py-24 lg:py-36 grid lg:grid-cols-2 gap-14 items-center">
         <div>
           <span className="kicker text-brand2">
             <span className="h-2 w-2 rounded-full bg-green-400 pulsedot" />
             {site.city}, {site.region} · Licensed & Insured
           </span>
-          <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] text-white">
+          <h1 className="mt-6 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.02] text-white">
             Aurora&apos;s <span className="text-grad">on-time</span> plumbing team.
           </h1>
-          <p className="mt-5 text-lg text-mist/90 max-w-xl leading-relaxed">
+          <p className="mt-6 text-lg sm:text-xl text-mist/90 max-w-xl leading-relaxed">
             From burst pipes to full repipes, Gridline Plumbing does it right the
             first time — with upfront pricing, clean work, and a guarantee that
             holds. Serving Aurora & the south Denver metro, open 24/7.
@@ -52,7 +52,7 @@ export default function Hero() {
             <img
               src="/images/hero-van.png"
               alt="Gridline Plumbing service van and team in Aurora, Colorado"
-              className="w-full h-[300px] sm:h-[420px] object-cover"
+              className="w-full h-[340px] sm:h-[500px] lg:h-[560px] object-cover"
             />
           </div>
           <div className="absolute -bottom-5 -left-4 sm:left-5 bg-white text-ink rounded-xl shadow-xl px-5 py-4 flex items-center gap-4 border border-mist">

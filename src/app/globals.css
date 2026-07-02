@@ -28,17 +28,21 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background: var(--color-paper);
-  color: var(--color-slate);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-}
+@layer base {
+  body {
+    background: var(--color-paper);
+    color: var(--color-slate);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-display);
-  letter-spacing: -0.02em;
-  color: var(--color-ink);
+  /* In @layer base so Tailwind text-color utilities (e.g. text-white on a
+     dark hero) always win over this default. */
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+  }
 }
 
 .container-x {
