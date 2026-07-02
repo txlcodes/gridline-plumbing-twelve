@@ -52,7 +52,7 @@ export default function Hero() {
             <img
               src="/images/hero-van.png"
               alt="Gridline Plumbing service van and team in Aurora, Colorado"
-              className="w-full h-[340px] sm:h-[500px] lg:h-[560px] object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
           <div className="absolute -bottom-5 -left-4 sm:left-5 bg-white text-ink rounded-xl shadow-xl px-5 py-4 flex items-center gap-4 border border-mist">
